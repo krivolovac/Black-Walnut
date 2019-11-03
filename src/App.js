@@ -12,7 +12,6 @@ function App() {
   return (
     <div className="App">
       <span>JABUKE</span>
-      <img src="C:/Users/Korisnik/Desktop/gadzo/src/jabuke.png" alt=""/>   
       <InputPrice onPriceChange={e => changeApple(e.target.value)} price={apple}/>
       <Button current={apple}/>
       <br/>
